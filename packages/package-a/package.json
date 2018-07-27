@@ -1,0 +1,7 @@
+{
+  "name": "@org/package-a",
+  "version": "1.0.0",
+  "scripts": {
+      "whoami": "yarn run env | grep npm_execpath"
+  }
+}

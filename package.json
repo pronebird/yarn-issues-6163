@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "workspaces": [ "packages/package-a" ],
+  "scripts": {
+      "whoami": "yarn run env | grep npm_execpath"
+  }
+}
